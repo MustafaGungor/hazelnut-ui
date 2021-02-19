@@ -1,7 +1,7 @@
 {
-  "name": "mg_ui",
-  "version": "0.0.1",
-  "description": "MG UI - React & Typescript",
+  "name": "hazelnut-ui",
+  "version": "0.0.2",
+  "description": "HAZELNUT UI - React & Typescript",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MustafaGungor/hazelnut-ui.git"

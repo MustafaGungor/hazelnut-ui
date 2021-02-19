@@ -1,9 +1,7 @@
 # hazelnut-ui 
-[hazelnut-ui Showcase](https://github.com/MustafaGungor/hazelnut-ui.git).
+[hazelnut-ui Showcase](https://mustafagungor.github.io/hazelnut-ui/#/).
 
-### 0.0.1
-    Bugfix Components ;
-        1- CheckList Component select problems fixed
-    New Features ;
-        1- Pagination number elements jobs started 
+### 0.0.2
+    Second Deploye ;
+        2- Project Documentation 
     
