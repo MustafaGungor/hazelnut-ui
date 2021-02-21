@@ -14,7 +14,7 @@ export default class AjaxRequestExample extends React.Component<any,any>{
     }
     getAjaxRequest(){
         return <div>
-            &emsp;Kaçin-ui AjaxRequest ile sunucu bilgi alışverişi , ui sayfasının kontrollerinin tutulması ve dinamik olarak sayfa yapılabilmesi,<br/>
+            &emsp;Hazelnut-ui AjaxRequest ile sunucu bilgi alışverişi , ui sayfasının kontrollerinin tutulması ve dinamik olarak sayfa yapılabilmesi,<br/>
             sunucu ile olan veri trafiğinin kontrol edilebilmesi sağlanır.<br/>
             &emsp;AjaxRequest componenti kullanabilmek için <b>url</b> girilmesi gerekiyor ve sunucu'da yönelmesi istenilen path özellik olarak gönderilir.
             <Highlight className='javascript'>{'url: \'http:localhost:5567/mg-rest/getList'}</Highlight>
