@@ -14,7 +14,7 @@
     ],
     "paths": {
       "hazelnut-ui/lib": ["src"],
-      "mg-lib": ["src"],
+      "hazelnut-lib": ["src"],
       "hazelnut-ui": ["src/index"]
     }
   },

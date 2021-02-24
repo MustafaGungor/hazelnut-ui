@@ -218,13 +218,12 @@ export default class DataForm extends React.Component<DataFormProps,any>{
     getRadioInput(value:any){
         return <RadioInput
             name={value[this.props.nameText]}
-            value={this.state[value[this.props.nameText]]}
+            value={this.state[value[this.props.nameText]][value.idField != undefined ? value.idField : value.id]}
             label={this.props.label != false ? value[this.props.labelText] : undefined}
             inline
-            formControl={true}
             items={this.props.values[value[this.props.nameText]]}
-            idField={value.idField}
-            textField={value.valueField}
+            idField={value.idField != undefined ? value.idField : value.id}
+            textField={value.valueField != undefined ? value.valueField : value.value}
             onChange={this.handleChangeRadio.bind(this)}/>
     }
 
@@ -350,11 +349,11 @@ export default class DataForm extends React.Component<DataFormProps,any>{
     }
 
     handleChangeRadio(e:any){
-        let name:string = e.target.name;
+        // let name:string = e.target.name;
         let state:any = [];
         let fields:any = this.props.fields;
         let values:any = this.props.values;
-        let ffRadio:any = e.target.classList.value;
+        // let ffRadio:any = e.target.classList.value;
         if(fields.length>0) {
             fields.map((field:any) => {
                 if (field.type == "radio") {

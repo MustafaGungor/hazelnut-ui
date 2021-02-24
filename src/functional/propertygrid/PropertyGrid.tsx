@@ -175,7 +175,7 @@ export default class PropertyGrid extends React.Component<PropertyGridProps,any>
                 }
                 return null;
             } else if (typeof(this.state[field.name]) == "undefined") {
-                debugger
+                //debugger
             }
         }catch(e){
 

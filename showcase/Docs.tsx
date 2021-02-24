@@ -7,7 +7,6 @@ const model = require("./jsons/DocList.json");
 
 export default class Docs extends React.Component<any, any> {
     constructor(props:any){
-        debugger;
         super(props);
         this.state = {
             data : model.data

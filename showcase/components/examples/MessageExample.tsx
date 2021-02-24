@@ -54,7 +54,6 @@ export default class MessageExample extends React.Component<any,any>{
      * Alert message
      */
     alertClick(e){
-        debugger
         Message.alert({message:"İşlemi Onaylıyor musunuz?",color:e.target.textContent,title:<div>Rapor işlemi</div>,callBack:(call)=>{
             console.log(call.response);
             }})

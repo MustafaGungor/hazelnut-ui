@@ -96,7 +96,7 @@ export default class DataFormExample extends React.Component<any,any>{
                     {id:4,value:"Lg",des:"D1"},
                     {id:5,value:"Lenovo",des:"D1"}
                 ],
-                opened : [{id:1,value:"Açık"},{id:2,value:"Kapalı"}],
+                opened : [{id:1,value:"Açık",valueField:"acik"},{id:2,value:"Kapalı",valueField: "kapali"}],
                 location : "Ankara",
                 job : "Engineer",
                 checkJob : [{id:1,name:"Mustafa",job:"Computer Engineer", age: 26},
